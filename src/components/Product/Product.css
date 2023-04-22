@@ -32,6 +32,7 @@
 }
 
 .btn-cart{
+    color: orangered;
     width: 100%;
    background: #FFE0B3;
    border: 1px solid #95A0A7;
@@ -42,4 +43,5 @@
 
 .btn-cart:hover{
     background-color: orange;
+    color: white;
 }
