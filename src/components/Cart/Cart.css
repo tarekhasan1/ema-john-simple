@@ -7,3 +7,14 @@
 .cart p{
     font-size: 17px;
 }
+
+.btn-clear-cart{
+    width: 90%;
+    margin: 10px auto;
+    font-size: 21px;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
