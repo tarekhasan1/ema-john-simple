@@ -3,7 +3,7 @@ import './Shop.css';
 import Product from '../Product/Product';
 import '../Cart/Cart'
 import Cart from '../Cart/Cart';
-import { addToDb, getShoppingCart } from '../../../public/fakedb';
+import { addToDb, getShoppingCart } from '../../Utilities/fakedb';
 
 const Shop = () => {
 
@@ -47,7 +47,7 @@ const Shop = () => {
     },[products]);
 
     const handleAddToCart = (product) => {
-        const newCart = [];
+        let newCart = [];
     //    const newCart = [...cart, product];
        //if product doesn't exists in the cart, then set the quantity =1
        //if exists update quantity by 1
